@@ -25,6 +25,11 @@
         width: 77%;
     }
 
+    .banner-buttons button {
+        padding: .7rem 1.7rem;
+        font-size: .9rem;
+    }
+
     #two {
         display: none;
     }
@@ -35,6 +40,10 @@
 
     .circle i {
         display: block;
+    }
+
+    .hover .extra {
+        backdrop-filter: blur(.5rem);
     }
 
     .hover .five {
@@ -56,4 +65,17 @@
     .extra .four {
         font-size: 0.6rem;
     }
+
+    .img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .text-container {
+        width: 90%;
+    }
+
+    .text-container h1 {
+        font-size: 2rem;
+    }
+
 }
