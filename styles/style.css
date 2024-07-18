@@ -12,16 +12,23 @@
     font-family: "Inter", sans-serif;
     background-color: black;
 }
+
 /* banner-section */
 /* nav-section */
+.header {
+
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
 
 nav {
     width: 75%;
     height: fit-content;
     margin: 3.5rem auto;
+    margin-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent;
 }
 
 nav .brand {
@@ -29,6 +36,7 @@ nav .brand {
     color: rgb(230, 83, 60);
     font-style: italic;
     font-size: 2.25rem;
+    background-color: transparent;
 }
 
 .nav-links {
@@ -40,6 +48,7 @@ nav .brand {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent;
 }
 
 .nav-links button {
@@ -48,6 +57,7 @@ nav .brand {
     border: none;
     font-weight: 400;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .nav-links .btn {
@@ -62,7 +72,7 @@ nav .brand {
 
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
@@ -73,11 +83,13 @@ nav .brand {
     justify-content: space-between;
     align-items: center;
     margin: 2rem auto;
+    background-color: transparent;
 }
 
 .banner-text {
     width: 50%;
     height: fit-content;
+    background-color: transparent;
 }
 
 .banner-text h1 {
@@ -85,6 +97,7 @@ nav .brand {
     font-size: 4.8rem;
     font-weight: 900;
     line-height: 120%;
+    background-color: transparent;
 }
 
 #one {
@@ -92,6 +105,7 @@ nav .brand {
     font-style: italic;
     font-weight: 400;
     display: inline-block;
+    background-color: transparent;
 }
 
 .banner-text p {
@@ -99,14 +113,17 @@ nav .brand {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 1.75rem;
+    background-color: transparent;
 }
 
-.banner-buttons{
+.banner-buttons {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-color: transparent;
 }
-.banner-buttons button{
+
+.banner-buttons button {
     border: none;
     padding: 1rem 2.5rem 1rem 2.5rem;
     border-radius: 2.6rem;
@@ -119,14 +136,95 @@ nav .brand {
     margin-top: 1.75rem;
 }
 
-#two{
-    background: rgb(230, 83, 60) ;
+#two {
+    background: rgb(230, 83, 60);
 }
+
 .banner-buttons .btn {
     background: rgb(230, 83, 60);
     margin-right: 0.8rem;
 }
-.banner-image img{
+
+.banner-image {
+    background-color: transparent;
+    position: relative;
+}
+
+.banner-image img {
     width: 100%;
     height: 100%;
+    background-color: transparent;
+}
+
+.hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover .extra {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(.5rem);
+    background-color: rgba(48, 48, 48, 0.54);
+}
+
+.hover .five {
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    padding: 1rem;
+}
+
+.extra #three {
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: transparent;
+}
+
+.extra #four {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    background: transparent;
+}
+
+.extra .four {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    background: transparent;
+}
+
+.three {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    left: -20%;
+    padding: 1rem;
+}
+
+.circle {
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i {
+    display: none;
+    background: transparent;
+}
+
+.first {
+    background: transparent;
 }
