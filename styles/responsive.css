@@ -25,9 +25,18 @@
         width: 77%;
     }
 
+    .banner-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .banner-buttons button {
-        padding: .7rem 1.7rem;
+        padding: .5rem 1.5rem;
         font-size: .9rem;
+        width: 50%;
+        height: 3rem;
     }
 
     #two {
@@ -76,6 +85,34 @@
 
     .text-container h1 {
         font-size: 2rem;
+    }
+
+    .run-an-extra {
+        flex-direction: column;
+    }
+
+    .run-an-extra .text-container-two {
+        width: 85%;
+        margin: 2rem 2rem;
+    }
+
+    .text-container-two h1 {
+        font-size: 2rem;
+    }
+
+    .text-container-two p {
+        margin-bottom: 1.5rem;
+    }
+
+    .text-container-two button {
+        width: 100%;
+        padding: .7rem 1.7rem;
+        font-size: .9rem;
+    }
+
+    .run-an-extra .img-container-two {
+        width: 85%;
+        margin: .5rem 1rem;
     }
 
 }
