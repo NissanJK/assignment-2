@@ -115,12 +115,24 @@
         margin: 1.5rem 1rem;
     }
 
-    .img-container-three{
+    .img-container-three {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #invisible-one,#invisible-two{
+    #invisible-one,
+    #invisible-two {
         display: none;
+    }
+
+    .box,
+    .smaller-box-two {
+        flex-direction: column;
+    }
+
+    .box-in-a-box,
+    .smaller-box-one,
+    .smaller-box-two {
+        width: 100%;
     }
 
 }
