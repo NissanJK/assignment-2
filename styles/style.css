@@ -16,14 +16,15 @@
 /* banner-section */
 /* nav-section */
 .header {
-
-    background: linear-gradient(0.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    padding-top: 3.5rem;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
 nav {
     width: 75%;
     height: fit-content;
-    margin: 3.5rem auto;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,6 +133,7 @@ nav {
     cursor: pointer;
     color: rgb(255, 255, 255);
     margin-top: 1.75rem;
+    background-color: transparent;
 }
 
 #two {
@@ -496,4 +498,105 @@ hr {
     margin-bottom: 1.25rem;
     background: transparent;
     cursor: pointer;
+}
+
+/* bmi-desc */
+.bmi-desc {
+    width: 46.5%;
+    margin: 0 auto;
+    margin-bottom: 6.25rem;
+}
+
+.bmi-desc h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 0.875rem;
+}
+
+.bmi-desc p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+/* BMI */
+.bmi {
+    width: 100%;
+    background: rgb(34, 34, 34);
+    margin-bottom: 6.25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.main-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.secondary-container-one {
+    width: 50%;
+    background: transparent;
+}
+
+.secondary-container-one h3,
+.secondary-container-two h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    background: transparent;
+}
+
+.secondary-container-one h3 {
+    margin-bottom: 3.25rem;
+}
+
+.secondary-container-two h3 {
+    margin-bottom: 0.875rem;
+}
+
+.secondary-container-two p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    background: transparent;
+    margin-bottom: 2.125rem;
+}
+
+.secondary-container-two {
+    width: 50%;
+    background: transparent;
+}
+
+table {
+    border-collapse: collapse;
+    background: rgb(34, 34, 34);
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.8rem 1.5rem;
+    background: rgb(34, 34, 34);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 1.5rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    background: rgb(34, 34, 34);
 }
