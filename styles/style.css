@@ -17,7 +17,13 @@
 /* nav-section */
 .header {
     padding-top: 3.5rem;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(to bottom,
+            rgba(119, 119, 119, 0),
+            rgb(17, 17, 17) 25%,
+            rgb(17, 17, 17) 50%,
+            rgb(17, 17, 17) 75%,
+            rgba(119, 119, 119, 0));
+
 }
 
 nav {
@@ -599,4 +605,24 @@ th {
     font-weight: 500;
     line-height: 120%;
     background: rgb(34, 34, 34);
+}
+
+form {
+    display: block;
+}
+
+
+
+select,input{
+    padding: .5rem 1.5rem;
+    margin: 0 auto;
+    width: 40%;
+}
+
+select{
+    width: 49%;
+}
+
+#activity{
+    width: 98.7%;
 }

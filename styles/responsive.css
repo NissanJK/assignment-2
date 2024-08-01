@@ -61,6 +61,7 @@
 
     .three {
         bottom: 35%;
+        left: -10%;
     }
 
     .extra #four {
@@ -133,6 +134,46 @@
     .smaller-box-one,
     .smaller-box-two {
         width: 100%;
+    }
+
+    /* .bmi-desc,
+    .nav,
+    .banner-container,
+    .change-habits,
+    .run-an-extra,
+    .meet-our-team,
+    .box,
+    hr,
+    .main-container {
+        width: 89.6%;
+    } */
+
+    .bmi-desc{
+        width: 75%;
+    }
+
+    .bmi-desc h1{
+        font-size: 2rem;
+    }
+
+    .main-container{
+        flex-direction: column;
+    }
+
+    .secondary-container-one,.secondary-container-two{
+        width: 100%;
+    }
+    .secondary-container-one h3,
+    .secondary-container-two h3{
+        font-size: 1rem;
+    }
+
+    .secondary-container-one h3{
+        margin-bottom: 1.45rem;
+    }
+
+    .secondary-container-one{
+        margin-bottom: 2.625rem;
     }
 
 }
