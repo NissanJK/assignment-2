@@ -664,4 +664,5 @@ label {
     background: rgb(230, 83, 60);
     border: none;
     padding: 1rem 2.5rem 1rem 2.5rem;
+    cursor: pointer;
 }
