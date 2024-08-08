@@ -179,15 +179,19 @@
     }
 
     input {
-        width: 42.5%;
+        width: 42%;
     }
 
     #sex {
-        width: 47.5%;
+        width: 47%;
+    }
+
+    #activity {
+        width: 96.5%;
     }
 
     th {
-        font-size: .99rem;
+        font-size: .95rem;
     }
 
 }
