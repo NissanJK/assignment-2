@@ -19,9 +19,9 @@
     padding-top: 3.5rem;
     background: linear-gradient(to bottom,
             rgba(119, 119, 119, 0),
-            rgb(17, 17, 17) 25%,
+            rgb(17, 17, 17) 30%,
             rgb(17, 17, 17) 50%,
-            rgb(17, 17, 17) 75%,
+            rgb(17, 17, 17) 70%,
             rgba(119, 119, 119, 0));
 
 }
@@ -574,6 +574,7 @@ hr {
     line-height: 1.5rem;
     background: transparent;
     margin-bottom: 2.125rem;
+    width: 95%;
 }
 
 .secondary-container-two {
@@ -607,22 +608,60 @@ th {
     background: rgb(34, 34, 34);
 }
 
-form {
-    display: block;
+input {
+    color: rgba(255, 255, 255, 0.6);
+    width: 45.5%;
+    height: 3rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    margin: 0.3rem 0.3rem 0.3rem 0;
+    padding-left: 1rem;
 }
 
-
-
-select,input{
-    padding: .5rem 1.5rem;
-    margin: 0 auto;
-    width: 40%;
+#sex,
+#activity {
+    color: rgba(255, 255, 255, 0.6);
+    width: 48%;
+    height: 3rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    margin: 0.3rem 0.3rem 0.3rem 0;
+    padding-left: 0.635rem;
+    border-right: 0.635rem solid transparent;
 }
 
-select{
-    width: 49%;
+#activity {
+    width: 98%;
+    margin-bottom: 2rem;
 }
 
-#activity{
-    width: 98.7%;
+option {
+    width: 100%;
+    border: none;
+    border-radius: .5rem;
+    background-color: gray;
+    color: lightgray;
+    font-size: 1rem;
+    margin: 0.3rem;
+}
+
+form,
+.input-field,
+label {
+    background: transparent;
+}
+
+.bmi-btn {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    border-radius: 2.625rem;
+    background: rgb(230, 83, 60);
+    border: none;
+    padding: 1rem 2.5rem 1rem 2.5rem;
 }

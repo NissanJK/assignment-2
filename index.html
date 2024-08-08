@@ -143,33 +143,39 @@
                         your weight in kilograms by your height in meters squared (kg/m²). A BMI between 18.5 and 24.9
                         is ideal. Use this tool to set and track your fitness goals.</p>
                     <form>
-                        <label for="height">
-                            <input type="text" id="height" placeholder="Height/cm">
-                        </label>
-                        <label for="weight">
-                            <input type="text" id="weight" placeholder="Weight/kg">
-                        </label>
-                        <label for="age">
-                            <input type="text" id="age" placeholder="Age">
-                        </label>
-                        <label for="sex">
-                            <select id="sex">
-                                <option value="" disabled selected>Sex</option>
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                            </select>
-                        </label>
-                        <label for="activity">
-                            <select id="activity">
-                                <option value="" disabled selected>Select an activity factor</option>
-                                <option value="sedentary">Sedentary</option>
-                                <option value="light">Lightly active</option>
-                                <option value="moderate">Moderately active</option>
-                                <option value="active">Very active</option>
-                                <option value="extra">Extra active</option>
-                            </select>
-                        </label>
-                        <button>Calculate</button>
+                        <div class="input-field">
+                            <label for="height">
+                                <input type="text" id="height" placeholder="Height/cm">
+                            </label>
+                            <label for="weight">
+                                <input type="text" id="weight" placeholder="Weight/kg">
+                            </label>
+                        </div>
+                        <div class="input-field">
+                            <label for="age">
+                                <input type="text" id="age" placeholder="Age">
+                            </label>
+                            <label for="sex">
+                                <select id="sex">
+                                    <option value="" disabled selected>Sex</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="input-field">
+                            <label for="activity">
+                                <select id="activity">
+                                    <option value="" disabled selected>Select an activity factor</option>
+                                    <option value="sedentary">Sedentary</option>
+                                    <option value="light">Lightly active</option>
+                                    <option value="moderate">Moderately active</option>
+                                    <option value="active">Very active</option>
+                                    <option value="extra">Extra active</option>
+                                </select>
+                            </label>
+                        </div>
+                        <button class="bmi-btn">Calculate</button>
                     </form>
                 </div>
             </div>

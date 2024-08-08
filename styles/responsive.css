@@ -148,32 +148,46 @@
         width: 89.6%;
     } */
 
-    .bmi-desc{
+    .bmi-desc {
         width: 75%;
     }
 
-    .bmi-desc h1{
+    .bmi-desc h1 {
         font-size: 2rem;
     }
 
-    .main-container{
+    .main-container {
         flex-direction: column;
     }
 
-    .secondary-container-one,.secondary-container-two{
+    .secondary-container-one,
+    .secondary-container-two {
         width: 100%;
     }
+
     .secondary-container-one h3,
-    .secondary-container-two h3{
+    .secondary-container-two h3 {
         font-size: 1rem;
     }
 
-    .secondary-container-one h3{
+    .secondary-container-one h3 {
         margin-bottom: 1.45rem;
     }
 
-    .secondary-container-one{
+    .secondary-container-one {
         margin-bottom: 2.625rem;
+    }
+
+    input {
+        width: 42.5%;
+    }
+
+    #sex {
+        width: 47.5%;
+    }
+
+    th {
+        font-size: .99rem;
     }
 
 }
