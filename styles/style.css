@@ -666,3 +666,102 @@ label {
     padding: 1rem 2.5rem 1rem 2.5rem;
     cursor: pointer;
 }
+
+/* our-packages */
+
+.our-packages {
+    width: 100%;
+    margin-bottom: 6.25rem;
+}
+
+.original-container {
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 1.15rem;
+}
+
+.card-desc-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3.375rem;
+    text-align: center;
+}
+
+.card-desc-container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 0.875rem;
+}
+
+.card-desc-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 0.875rem;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(34, 34, 34);
+    border-top-left-radius: 1.15rem;
+    border-top-right-radius: 1.15rem;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: calc(30% - 2rem);
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1.15rem;
+    box-shadow: 1rem 1rem 2rem black;
+}
+
+.card-1 h2,
+.card-2 h2,
+.card-3 h2,
+.additional-considerations h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 0.875rem;
+    background: transparent;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p,
+.card-1 li,
+.card-2 li,
+.card-3 li,
+.additional-considerations p,
+.additional-considerations li {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 0.875rem;
+    background: transparent;
+}
+
+ul {
+    border-left: 1rem solid transparent;
+    background: transparent;
+}
+
+.additional-considerations {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    padding: 1rem;
+    background: rgb(34, 34, 34);
+    border-bottom-right-radius: 1.15rem;
+    border-bottom-left-radius: 1.15rem;
+}

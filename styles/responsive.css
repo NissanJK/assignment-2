@@ -136,18 +136,6 @@
         width: 100%;
     }
 
-    /* .bmi-desc,
-    .nav,
-    .banner-container,
-    .change-habits,
-    .run-an-extra,
-    .meet-our-team,
-    .box,
-    hr,
-    .main-container {
-        width: 89.6%;
-    } */
-
     .bmi-desc {
         width: 75%;
     }
@@ -192,6 +180,21 @@
 
     th {
         font-size: .9rem;
+    }
+
+    .card-desc-container {
+        width: 75%;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 80%;
+        margin: 1rem auto;
     }
 
 }
