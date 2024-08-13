@@ -116,6 +116,10 @@
         margin: 1.5rem 1rem;
     }
 
+    .img-container-two img{
+        object-fit: cover;
+    }
+
     .img-container-three {
         grid-template-columns: repeat(1, 1fr);
     }
